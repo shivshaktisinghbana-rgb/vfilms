@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-paper text-ink antialiased;
+  background-image:
+    radial-gradient(circle at 10% 10%, rgba(216,145,133,0.06) 0px, rgba(246,224,220,0.02) 60px),
+    radial-gradient(circle at 90% 80%, rgba(216,145,133,0.04) 0px, rgba(246,224,220,0.02) 100px);
+}
+
+.input-focus:focus {
+  outline: 0;
+  box-shadow: 0 0 0 4px rgba(233,88,71,0.08);
+}
